@@ -76,7 +76,7 @@ is_stream() {
 as_major() {
 	if is_9; then
 		# Pending
-		echo ""
+		echo "9"
 	elif is_8; then
 		echo "8"
 	else
